@@ -27,13 +27,13 @@ if __name__ == '__main__':
     # Set the turtle speed to 0 (fastest)
     nathanael.speed(0)
     # Use a for loop to repeat all of the code below ONE time (we will change this later)
-    for i in range(1):
+    for i in range(25):
         # Set the turtle .fillcolor() to orange
         nathanael.fillcolor("orange")
         # Call the turtle .begin_fill() function
         nathanael.begin_fill()
         # TURN RIGHT     Turn the turtle 1/8 of a circle (hint: 360 degrees will turn a full circle)
-        nathanael.right(45)
+        nathanael.right(360/8)
         # DRAW           Move the turtle 64 pixels
         nathanael.forward(64)
         # TURN LEFT      Turn the turtle 40 degrees to the LEFT. (Negative numbers will turn the turtle counter-clockwise.)
